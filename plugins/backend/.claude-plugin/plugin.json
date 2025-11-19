@@ -1,0 +1,9 @@
+{
+  "name": "backend-laravel",
+  "version": "1.0.0",
+  "description": "Laravel backend development",
+  "author": {
+    "name": "Astrid Web Technology LLP",
+    "email": "hello@astridtechnology.com"
+  }
+}

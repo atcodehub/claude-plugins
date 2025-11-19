@@ -56,6 +56,29 @@
       ],
       "category": "development",
       "strict": false
+    },
+    {
+      "name": "icon-generator",
+      "source": "./plugins/icon-generator",
+      "description": "Icon generator",
+      "version": "1.0.0",
+      "author": {
+        "name": "Astrid Web Technology LLP",
+        "url": "https://astridtechnology.com"
+      },
+      "homepage": "https://github.com/atcodehub/claude-plugins",
+      "repository": "https://github.com/atcodehub/claude-plugins",
+      "license": "MIT",
+      "keywords": [
+        "icon",
+        "generator",
+        "svg",
+        "outline",
+        "monochrome",
+        "ui"
+      ],
+      "category": "design",
+      "strict": false
     }
   ]
 }

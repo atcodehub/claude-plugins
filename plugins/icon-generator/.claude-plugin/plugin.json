@@ -1,0 +1,24 @@
+{
+  "name": "outline-icon-generator",
+  "version": "1.0.0",
+  "description": "Generate minimal monochrome outline SVG icons of requested objects.",
+  "author": {
+    "name": "Astrid Web Technology LLP",
+    "email": "hello@astridtechnology.com"
+  },
+  "commands": [
+    {
+      "name": "generateIcon",
+      "description": "Generate an outline SVG icon for a given object.",
+      "inputs": {
+        "object": { "type": "string", "description": "Name of the object to generate (e.g., camera, bell, user)" },
+        "size": { "type": "integer", "description": "Icon size in pixels (default: 24)", "optional": true },
+        "stroke": { "type": "number", "description": "Stroke width in px (default: 1.5)", "optional": true }
+      },
+      "outputs": {
+        "svg": { "type": "string", "description": "SVG markup for the icon" }
+      }
+    }
+  ],
+  "license": "MIT"
+}

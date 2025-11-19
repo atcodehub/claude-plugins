@@ -1,0 +1,41 @@
+{
+  "name": "atcodehub-claude-plugins",
+  "owner": {
+    "name": "Astrid Web Technology LLP",
+    "email": "hello@astridtechnology.com",
+    "url": "https://astridtechnology.com"
+  },
+  "metadata": {
+    "description": "A collection of plugins for Claude AI",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "frontend",
+      "source": "./plugins/frontend",
+      "description": "Frontend UI web development",
+      "version": "1.0.0",
+      "author": {
+        "name": "Astrid Web Technology LLP",
+        "url": "https://astridtechnology.com"
+      },
+      "homepage": "https://github.com/atcodehub/claude-plugins",
+      "repository": "https://github.com/atcodehub/claude-plugins",
+      "license": "MIT",
+      "keywords": [
+        "frontend",
+        "ui",
+        "cross-platform"
+      ],
+      "category": "development",
+      "strict": false,
+      "commands": [
+        "./commands/component-scaffold.md"
+      ],
+      "agents": [
+        "./agents/frontend-developer.md",
+        "./agents/mobile-developer.md"
+      ]
+    }
+  ]
+}
